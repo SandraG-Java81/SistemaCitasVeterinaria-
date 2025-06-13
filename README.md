@@ -29,6 +29,12 @@ Este proyecto está desarrollado en Java con enfoque orientado a objetos, aplica
 - `src/` → Código fuente (próximamente)
 
 ---
+## 📊 Arquitectura del sistema
+
+El sistema sigue una estructura en capas basada en el patrón MVC (Modelo - Vista - Controlador), lo cual permite separar la lógica del negocio, la presentación y los datos.
+
+![Vista lógica del sistema](UML/vistalógicadelsistema.drawio.png)
+---
 
 ## 🔧 Tecnologías utilizadas
 
