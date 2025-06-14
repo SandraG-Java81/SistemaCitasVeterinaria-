@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f23d9114-626e-4711-b23a-6479eadabc53)
+
 # 📚 Sistema de Gestión de Citas para Clínica Veterinaria
 
 Este proyecto está desarrollado en Java con enfoque orientado a objetos, aplicando principios de arquitectura en capas y modelado UML. Su propósito es permitir la gestión eficiente de clientes, mascotas, veterinarios y citas médicas dentro de una clínica veterinaria.
