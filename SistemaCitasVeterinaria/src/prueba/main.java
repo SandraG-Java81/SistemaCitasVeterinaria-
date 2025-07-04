@@ -6,6 +6,12 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
+        
+        
+        UI.VentanaPrincipal ventana = new UI.VentanaPrincipal();
+
+        // Mostrar la ventana
+        ventana.setVisible(true);
         ControladorCliente controladorCli = new ControladorCliente();
         Cliente cliente = new Cliente("Luz", "García", "555-1234", "Calle Falsa 123");
         Cliente cliente1 = new Cliente("Felipe", "García", "555-1234", "Calle Falsa 123");
