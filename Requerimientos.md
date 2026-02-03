@@ -1,12 +1,12 @@
 1. Descripción general del sistema
-El sistema permitirá a los clientes registrar citas con veterinarios, así como a la clínica gestionar la información de los clientes, las citas y los médicos disponibles. Estará desarrollado en Java con arquitectura en capas, incluyendo modelado UML y base de datos.
+El sistema permitirá a los clientes registrar citas con veterinarios, así como a la clínica gestionar la información de los clientes, las citas y los veterinarios disponibles. Estará desarrollado en Java con arquitectura en capas, incluyendo modelado UML y base de datos.
 
 2. Requerimientos funcionales
 Código	Requerimiento funcional
 RF-01	El sistema debe permitir registrar nuevos clientes con nombre, teléfono y mascota.
 RF-02	El sistema debe permitir crear nuevas citas con fecha, hora, motivo y veterinario asignado.
 RF-03	El sistema debe mostrar las citas registradas, incluyendo información del cliente.
-RF-04	El sistema debe permitir cancelar o eliminar citas.
+RF-04	El sistema debe permitir cancelar citas.
 RF-05	El sistema debe permitir consultar citas por fecha o por nombre del cliente.
 RF-06	El sistema debe registrar veterinarios disponibles con nombre y especialidad.
 RF-07	El sistema debe validar que no haya dos citas al mismo tiempo con el mismo veterinario.
@@ -22,5 +22,6 @@ RNF-05	Se deben incluir diagramas UML y documentación del sistema en el reposit
 4. Alcance del sistema 
 El sistema incluirá funcionalidades básicas para gestión de clientes, veterinarios y citas.
 No se incluirán por ahora: historiales clínicos, facturación, interfaz web, ni base de datos en línea.
+
 
 
