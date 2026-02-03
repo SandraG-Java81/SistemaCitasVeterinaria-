@@ -19,7 +19,8 @@ RNF-03	La interfaz debe ser clara, simple y funcional para usuarios sin conocimi
 RNF-04	El código debe estar estructurado, comentado y modularizado.
 RNF-05	Se deben incluir diagramas UML y documentación del sistema en el repositorio.
 
-4. Alcance del sistema (para dejarlo claro)
+4. Alcance del sistema 
 El sistema incluirá funcionalidades básicas para gestión de clientes, veterinarios y citas.
 No se incluirán por ahora: historiales clínicos, facturación, interfaz web, ni base de datos en línea.
+
 
