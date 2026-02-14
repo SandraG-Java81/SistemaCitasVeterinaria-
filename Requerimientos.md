@@ -11,6 +11,10 @@ RF-05	El sistema debe permitir consultar citas por fecha o por nombre del client
 RF-06	El sistema debe registrar veterinarios disponibles con nombre y especialidad.
 RF-07	El sistema debe validar que no haya dos citas al mismo tiempo con el mismo veterinario.
 RF-08 El sistema debe permitir modificar una cita existente (fecha/hora y/o veterinario), siempre que la cita no esté cancelada ni atendida y que se valide la disponibilidad del veterinario.
+RF-09 El sistema debe permitir actualizar el estado de una cita (PROGRAMADA, CANCELADA, ATENDIDA). Solo se permitirá cancelar o marcar como atendida una cita en estado PROGRAMADA; no se permitirá cambiar el estado de una cita CANCELADA a ATENDIDA ni de una cita ATENDIDA a CANCELADA.
+RF-10 El sistema debe permitir registrar el cambio de estado de una cita (PROGRAMADA a CANCELADA o ATENDIDA) y almacenar la fecha del cambio y el usuario responsable, conservando el folio de la cita.
+
+
 
 4. Requerimientos no funcionales
 Código	Requerimiento no funcional
@@ -23,6 +27,7 @@ RNF-05	Se deben incluir diagramas UML y documentación del sistema en el reposit
 5. Alcance del sistema 
 El sistema incluirá funcionalidades básicas para gestión de clientes, veterinarios y citas.
 No se incluirán por ahora: historiales clínicos, facturación, interfaz web, ni base de datos en línea.
+
 
 
 
